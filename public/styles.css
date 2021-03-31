@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #343d4b;
+    font-family: 'Poppins', sans-serif;
+}
+.box{
+    background-image: url("https://images.unsplash.com/photo-1497465135434-9dc15238075a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1262&q=80");
+    background-size: cover;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 550px;
+    width: 800px;
+    border-radius: 25px;
+    -webkit-box-shadow: 0 10px 100px -10px rgba(0, 0, 0, 0.25);
+            box-shadow: 0 10px 100px -10px rgba(0, 0, 0, 0.25);
+}
+
+h1{
+    display: inline-block;
+    position: relative;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-shadow: 0px 5px 10px black;
+    padding: 0;
+    margin: 0;
+}
+.search-box{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 50px;
+    width: 300px;
+    border-radius: 40px;
+    float: center;
+    background: #343d4bce;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.25);
+}
+
+.search-btn{
+    border: solid #343d4ba8;
+    float: right;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.794);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -o-transition: transform 300ms ease;
+	transition: transform 300ms ease;
+	transition: transform 300ms ease, -webkit-transform 300ms ease;
+	-webkit-transform: translateZ(0) scale(1.02) perspective(1000px);
+	        transform: translateZ(0) scale(1.02) perspective(1000px);
+}
+
+.search-btn:hover{
+    -webkit-transform: scale(1.15) perspective(1500px);
+    transform: scale(1.15) perspective(1500px);
+}
+
+.search-txt{
+    border: none;
+    background: none;
+    outline: none;
+    margin-left: 10px;
+    float: left;
+    padding: 0;
+    color: white;
+    font-size: 17px;
+    line-height: 50px;
+    width: 240px;
+}
+
+::placeholder{
+    color: rgba(255, 255, 255, 0.733);
+}
